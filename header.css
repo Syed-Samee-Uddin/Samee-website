@@ -1,0 +1,277 @@
+.header1{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.starthead{
+    align-items:center ;
+    display: flex;
+    height: 45px;
+}
+.middle{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38px;
+    max-width: 640px;
+}
+.end{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-shrink: 0px;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-left: 12px;
+}
+.ham1{
+    margin-top: 15px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 7px;
+    width:35%;
+}
+.ham1:hover{
+    cursor: pointer;
+}
+.you1{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.you1:hover{
+    cursor: pointer;;
+}
+.a1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: green;
+    margin-left: 70px;
+    margin-right: 35px;
+
+
+}
+.b1{
+    height: 39px;
+    margin-left: -1px;
+    
+    width: 60px;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(224, 221, 221);
+}
+
+.yousearch::placeholder{
+    font-family: roboto,arial;
+    font-size: 16px;
+}
+.search{
+    height: 35px;
+    flex: 1;
+    border-top-left-radius: 30px;
+    border-width: 1px;
+    border-color: rgb(177, 171, 171);
+    border-bottom-left-radius: 30px;
+    margin-right: -1px;
+    width: 0;
+    padding-left: 20px;
+}
+
+.searchbtn{
+    height: 39px;
+    width: 64px;
+    margin-left: -1px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid rgb(119, 115, 115);
+    position: relative;
+    cursor: pointer;
+
+}
+.searchbtn:hover{
+    background-color: rgb(219, 216, 216);
+}
+.searchbtn:hover .searchdis{
+    opacity: 1;
+}
+.searchbtn.searchdis{
+    opacity: 1;
+}
+.searchdis{
+    position: absolute;
+    bottom: -35px;
+    right: -4px;
+    opacity: 0;
+    background-color: gray;
+    padding: 8px;
+    color: white;
+    pointer-events: none;
+}
+
+.microbtn{
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+}
+.microbtn:hover{
+    cursor: pointer;
+    background-color: rgb(208, 205, 205);
+}
+.microbtn:hover .microdis{
+    opacity: 1;
+}
+.microdis{
+    position: absolute;
+     bottom: -38px;
+    right:-45px;
+    background-color: gray;
+    padding: 10px 10px;
+    color: white;
+    width: 135px;
+    opacity: 0;
+    pointer-events: none;
+}
+.searchicn{
+    height:50%;
+    justify-content: center;
+}
+.searchicn:hover{
+    cursor: pointer;
+}
+.microicn{
+    height: 50%;
+}
+.morecls{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 30px;
+    position: relative;
+    background-color: white;
+}
+.more1{
+    height: 18px;
+    background-color: white;
+}
+.more1:hover{
+    cursor: pointer;
+}
+
+.morecls:hover{
+    cursor: pointer;
+    background-color: rgb(216, 216, 216);
+
+}
+.morecls:hover .moredis{
+    opacity: 1;
+}
+.moredis{
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    background-color: gray;
+    padding: 8px;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.noticls{
+    
+    border-radius: 14px;
+    border: none;
+    background-color: white;
+    position: relative;
+    margin-left: 0px;
+}
+.noticls:hover{
+    cursor: pointer;
+    background-color: rgb(209, 199, 199);
+}
+.notidis{
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    background-color: gray;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    padding: 8px 8px;
+}
+.noticls:hover .notidis{
+    opacity: 1;
+}
+.noti1{
+    height: 25px;
+}
+.mypiccls{
+    border: none;
+    background-color: white;
+    margin-right: 15px;
+}
+.mypic1{
+    height: 36px;
+}
+.mypiccls:hover{
+    cursor: pointer;
+}
+.a1{
+    background-color: rgb(42, 73, 84);
+}
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    bottom: 0px;
+    width: 50px;
+    background-color: white(216, 35, 35);
+    
+}
+.sidebar1{
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sidebar1:hover{
+    cursor: pointer;
+    background-color: rgb(247, 240, 240);
+}
+.side1{
+    position: absolute;
+    bottom:2px;
+}
+.side2{
+    margin-top: 0px;
+    position: absolute;
+    bottom: 460px;
+    left:5px
+}.side3{
+    margin-top: 0px;
+    position: absolute;
+    bottom: 380px;
+    left:5px
+}
+.side4{
+    margin-top: 0px;
+    position: absolute;
+    bottom: 20px;
+    left:5px;
+}

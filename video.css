@@ -1,0 +1,85 @@
+.thumbnail{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.thumbnail2{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.p2{
+
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.thumbnaildiv{
+    margin-bottom: 5px;
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    background-color: black;
+    color: white;
+}
+.p1{
+    margin-bottom: 15px;
+}
+.p11{
+    margin-bottom: 15px;
+}
+.grid1{
+    display:grid;
+    grid-template-columns:50px 1fr;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 2px;
+}
+.icon{
+    border-radius: 50px;   
+    width: 100%;
+   
+}
+.icon2{
+    border-radius: 50px;    
+    width: 100%;
+   
+   
+}
+.gridall{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 28px;
+}
+.ddiv1{
+    margin-left: 5px;
+}
+.div333{
+    margin-left: 5px;
+}
+.startheader{
+    display: inline-block;
+    width: 100px;
+}
+.middleheader{
+    display: inline-block;
+}
+.endheader{
+    display: inline-block;
+}
+.div1,.div2{
+    margin-right: 15px;
+    margin-bottom: 23px;
+
+}
+.div222{
+    position: relative;
+}
+
